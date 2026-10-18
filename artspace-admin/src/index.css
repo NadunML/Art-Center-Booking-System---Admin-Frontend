@@ -73,17 +73,18 @@ a {
 }
 
 .brand-icon {
-  width: 43px;
-  height: 43px;
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
   display: grid;
   place-items: center;
   background: #303030;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 .brand-text h2 {
-  font-size: 21px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 700;
   margin: 0;
 }
 
