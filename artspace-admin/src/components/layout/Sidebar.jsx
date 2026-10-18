@@ -10,7 +10,7 @@ import {
   ChartNoAxesCombined,
   UserCircle,
   LogOut,
-  Palette,
+  Music2,
   X,
 } from "lucide-react";
 
@@ -37,12 +37,12 @@ export default function Sidebar({ isOpen, onClose }) {
       <aside className={`admin-sidebar ${isOpen ? "open" : ""}`}>
         <div className="sidebar-brand">
           <div className="brand-icon">
-            <Palette size={25} />
+            <Music2 size={22} strokeWidth={2.3} />
           </div>
 
           <div className="brand-text">
             <h2>ArtSpace</h2>
-            <p>Admin Portal</p>
+            <p>Student Portal</p>
           </div>
 
           <button
