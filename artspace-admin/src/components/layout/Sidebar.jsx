@@ -42,7 +42,7 @@ export default function Sidebar({ isOpen, onClose }) {
 
           <div className="brand-text">
             <h2>ArtSpace</h2>
-            <p>Student Portal</p>
+            <p>Admin Portal</p>
           </div>
 
           <button
